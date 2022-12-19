@@ -138,7 +138,7 @@ function Answer_Check(ans) {
         if(Q1 == "正解"){
             A1.textContent += Q1 + "です。あなたは今回のSを理解できています。";
         }else{
-            A1.textContent += Q1 + "です。正解の選択肢は【" + Explain[0][6] + "】です。今回の動画の内容から、Aさんが明らかに間食をしていると考えられる点があります。";
+            A1.textContent += Q1 + "です。正解の選択肢は【" + Explain[0][6] + "】です。今回の動画の内容から、Aさんが明らかに間食をしていると";
         }
         //2個目の解説文を作成する
         A2.textContent = "あなたの選択肢は";
